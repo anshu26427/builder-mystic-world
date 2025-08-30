@@ -6,11 +6,11 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useEffect, useState } from "react";
 
 const nav = [
-  { to: "/dashboard", label: "Dashboard" },
-  { to: "/library", label: "Library" },
-  { to: "/game", label: "Game" },
-  { to: "/progress", label: "Progress" },
-  { to: "/admin", label: "Admin" },
+  { to: "/#dashboard", label: "Dashboard" },
+  { to: "/#library", label: "Library" },
+  { to: "/#game", label: "Game" },
+  { to: "/#progress", label: "Progress" },
+  { to: "/#admin", label: "Admin" },
 ];
 
 const languages = [
