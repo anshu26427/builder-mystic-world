@@ -9,7 +9,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Dashboard from "./pages/Dashboard";
-import { AdminPage, GamePage, LibraryPage, ProgressPage } from "./pages/Placeholders";
+import {
+  AdminPage,
+  GamePage,
+  LibraryPage,
+  ProgressPage,
+} from "./pages/Placeholders";
 
 const queryClient = new QueryClient();
 
