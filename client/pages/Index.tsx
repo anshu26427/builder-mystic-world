@@ -1,13 +1,10 @@
-import { DemoResponse } from "@shared/api";
 import { useEffect, useState } from "react";
-
 import { SiteLayout } from "@/components/layout/SiteLayout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Gamepad2, Globe2, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useEffect, useState } from "react";
 
 const languages = [
   { code: "en", name: "English" },
