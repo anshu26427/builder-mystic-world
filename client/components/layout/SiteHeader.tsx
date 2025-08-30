@@ -73,7 +73,7 @@ export function SiteHeader() {
             </SelectContent>
           </Select>
           <Button asChild variant="default">
-            <Link to="/dashboard">
+            <Link to="/#progress">
               <Trophy className="mr-2 h-4 w-4" />
               My Progress
             </Link>
